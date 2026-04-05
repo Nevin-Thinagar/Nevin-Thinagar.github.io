@@ -12,10 +12,10 @@ While not pseting, I am most often found at [MITERS][miters-web], [MIT Motorspor
 <sup style="color:#666">2</sup> <small style="color:#666">Althogh I live in [Maseeh Hall][maseeh-web]</small>
 
 [course-16]: https://aeroastro.mit.edu/
-[course-6-4]: www.eecs.mit.edu/academics/undergraduate-programs/curriculum/6-4-artificial-intelligence-and-decision-making/
+[course-6-4]: https://www.eecs.mit.edu/academics/undergraduate-programs/curriculum/6-4-artificial-intelligence-and-decision-making/
 [home-song]: https://open.spotify.com/track/4aTtHoSBB0CuQGA6vXBNyp?si=703ab76665704d43
-[miters-web]: miters.mit.edu
-[fsae-web]: fsae.mit.edu
+[miters-web]: https://miters.mit.edu
+[fsae-web]: https://fsae.mit.edu
 [mad-web]: https://design.mit.edu/about/designplus
 [ec-web]: https://ec.mit.edu/
 [walker-wall]: https://scripts.mit.edu/~mitoc/wall/about/
