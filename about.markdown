@@ -8,5 +8,5 @@ My name is Nevin Thinagar, I'm a second year student studying [course 16](https:
 
 While not pseting, I am most often found at [MITERS](miters.mit.edu), [MIT Motorsports](fsae.mit.edu), [MAD]\(https://design.mit.edu/about/designplus), or [EAsT camPUS](https://ec.mit.edu/)[^2]. I also occasionally (climb)[https://scripts.mit.edu/~mitoc/wall/about/].
 
-[^1]: 40 minutes without traffic, 1.5+ hours with
-[^2]: Althogh, in fact, I live in [Maseeh Hall](https://maseeh.mit.edu/)
+<sub>[^1]: 40 minutes without traffic, 1.5+ hours with</sub>
+<small>[^2]: Althogh, in fact, I live in [Maseeh Hall](https://maseeh.mit.edu/)</small>
