@@ -19,10 +19,9 @@
 # in the templates via {{ site.myvariable }}.
 
 title: intentionally aimless
-name: nevin thinagar
 email: nevint@mit.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  second year student studying course 16 + 6-4 @ MIT.
+  second year student studying 16 + 6-4 @ MIT.
   i also build stuff, somtimes.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://intentionally-aimless.com" # the base hostname & protocol for your site, e.g. http://example.com
