@@ -33,6 +33,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Markdown settings
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
