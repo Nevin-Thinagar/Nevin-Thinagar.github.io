@@ -21,10 +21,12 @@
 title: intentionally aimless
 email: nevint@mit.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  i build stuff, somtimes.
+  second year student studying course 16 + 6-4 @ MIT.
+  i also build stuff, somtimes.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://intentionally-aimless.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  nevin-thinagar
+linkedin_username: nevin-thinagar
 
 # Build settings
 theme: minima
