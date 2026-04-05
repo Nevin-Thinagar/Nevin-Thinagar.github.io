@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Hello World: Building this website without understanding the internet"
 date:   2026-04-05 15:55:04 -0400
-categories: jekyll update
+categories: website
 ---
+![Cloudflare domain sucessfully registered email](https://res.cloudinary.com/dwyrlx60x/image/upload/q_auto/f_auto/v1775425354/domain-registered_lhhrdd.png "I didn't think it would be this easy")
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
