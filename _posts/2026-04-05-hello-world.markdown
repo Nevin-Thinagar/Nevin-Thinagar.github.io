@@ -4,7 +4,7 @@ title:  "Hello World: Building this website without understanding the internet"
 date:   2026-04-05 15:55:04 -0400
 categories: website
 ---
-Hello! If you're reading this many years in the future, hopefully there are many more blog posts after this one. Otherwise, it seems that this little blog experiment has sadly failed. Regardless, I finally gathered to motivation to just sit down for a couple hours and at least get some kind of structure set up.
+Hello! If you're reading this many years in the future, hopefully there are many more blog posts after this one. Otherwise, it seems that this little blog experiment has sadly failed. Regardless, I finally gathered the motivation to just sit down for a couple hours and get some kind of structure set up.
 
 So, I went over to MITERS at noon and told myself I wouldn't leave until I had at least a skeleton of a website up and running. It was at this point that I realized I have no idea how to create a website or even how they really work. I looked at a [couple][ben-katz-web] [past][austinb-web] [MITERS][franklin-web] [blogs][birkel-web], and they seemed to be quite varied, although I did recognize some common features. Visuals are great and all, but this still didn't give me a clue on how to actually make a website. So I went to the best free source of information I know, the [MITERS][miters-web] Discord server. [Oliver][oliver-web] recommended using [Github Pages][github-pages-web] as it provide free hosting as well as various other [Three Letter Acronyms][tla-web] (TLAs) that I honestly only vaguely understand the utility of (DNS, SSL, TLS, etc etc...). [Jonhenry][jonhenry-web] also confirmed that Github Pages was a good choice to minimize the amount of code I would have to write, so that was good enough for me<sup>1</sup> <sup>2</sup> <sup>3</sup>.
 
@@ -60,7 +60,9 @@ In addition to more styling, there are still many features that I want to add to
 
 Most of all, I think I need to get better at this whole blog writing thing. I feel like this post has too many words and not enough images. Also it's kind of fun to read, but I think I can do better.
 
-Anyways, I think I'll save that for the next post as it is now 4 AM (not continuous work since noon) and I am tired. Goodnight.
+Anyways, I think I'll save that for the next post as it is now 4 AM (not continuous work since noon, fortunately) and I am tired.
+
+Goodnight.
 
 <!--Footnotes-->
 <sup style="color:#666">1</sup> <small style="color:#666">[Anhad][anhad-web] said he uses Squarespace which costs ~$100 a year and [Vaughn][vaughn-web] recommended [Vercel][vercel-web]. I ended up deciding against these, though, as Github Pages was free (Vercel also is) and I already had a Github account.</small>\
