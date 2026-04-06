@@ -11,7 +11,7 @@ So, I went over to MITERS at noon and told myself I wouldn't leave until I had a
 So with the architecture decided, it was time to find a domain and get started. Or at least that's what I should have done. The reality is that I had gotten overexcited and already bought the domain [intentionally-aimless.com][nevin-web]<sup>4</sup> and only asked about hosting when I realized I had no idea what to do next.
 
 ![Cloudflare domain successfully registered email][cloudflare-domain]
-<center> *Domain purchased from Cloudflare!* </center>
+<center><em>Domain purchased from Cloudflare!</em></center><br>
 
 The story behind the name *intentionally aimless* is somewhat silly. I actually came up with this name at some point in high school while pondering making a [YouTube channel][nevin-yt]. I often find myself drifting from project to project as my interests in different fields ebb and flow, so the name still seems appropriate.
 
@@ -27,7 +27,7 @@ There were various issues in actually getting this implemented including adding 
 However, I was eventually able to get up in all its unstyled glory.
 
 ![Initial webpage, only text reads "Nevin-Thinagar.github.io][initial-commit]
-*Website up an running, albeit in a very rudimentary form*
+<center><em>Website up an running, albeit in a very rudimentary form</em></center><br>
 
 Actually, the webpage started out with marginally more styling than this (I, unfortunately, do not have an image of this). However, I then attempted to implement [Jekyll][jekyll-web] in a rather silly way<sup>5</sup> and ended up somehow getting rid of this styling. So, I decided to figure out how Jekyll actually worked and install it properly. It turns out I first had to install [Ruby][ruby-web] then run the following commands:
 
@@ -40,12 +40,12 @@ Actually, the webpage started out with marginally more styling than this (I, unf
 This added all the requisite files to my repository and set up the base layouts and styling. At first I thought this change hadn't worked since the website still looked the same. But it turns out this was just my browser caching the website locally instead of loading it from the server. A quick `CTRL + SHIFT + R` seemed to easily resolve this issue.
 
 ![Website in the Minima V2.5.2 theme][jekyll-welcome]
-*Website ft. the Minima V2.5.2 theme*
+<center><em>Website ft. the Minima V2.5.2 theme</em></center><br>
 
 I also realize around this time I am not very competent when it comes to writing in Markdown.
 
 ![Website with dubious markdown formatting][markdown-struggles]
-*Why are the footnotes ugly and using arrow emojis*
+<center><em>Why are the footnotes ugly and using arrow emojis</em></center><br>
 
 It is at this point in this post where it becomes self-referential. I have gotten the formatting to a place that I am relatively happy with, although there are some things with styling that I want to fix. This is made slightly more complex by the fact that the theme I am currently using, [Minima][minima-web], is preparing for a relatively major update. As such, I don't want to customize too much right now just for it to become outdated in a few months.
 
@@ -62,7 +62,7 @@ But I think I'll save that for the next post as it is now 4 AM (not continuous w
 <sup style="color:#666">1</sup> <small style="color:#666">[Anhad][anhad-web] said he uses Squarespace which costs ~$100 a year and [Vaughn][vaughn-web] recommended [Vercel][vercel-web]. I ended up deciding against these, though, as Github Pages was free (Vercel also is) and I already had a Github account.</small>\
 <sup style="color:#666">2</sup> <small style="color:#666">I also briefly pondered self-hosting like [Andrew][andrew-web] does, before realizing I want to get this up and running without it taking several months. Also, I don't have a homelab setup.</small>\
 <sup style="color:#666">3</sup> <small style="color:#666">I also considered using MIT's hosting service for student and other websites. However, this (to the best of my knowledge) expires after I graduate so I wanted to set up something a little more permanent.</small>\
-<sup style="color:#666">4</sup> <small style="color:#666">Only $10.46/year!</small>
+<sup style="color:#666">4</sup> <small style="color:#666">Only $10.46/year!</small>\
 <sup style="color:#666">5</sup> <small style="color:#666">I simply added a _config.yml file to the repo without doing any of the other parts.</small>
 
 <!--Image links-->
