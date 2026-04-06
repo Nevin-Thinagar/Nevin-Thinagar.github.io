@@ -24,7 +24,7 @@ To actually set up my site on Github Pages, I vaguely followed these tutorials:
 
 There were various issues in actually getting this implemented including adding DNS records to the Cloudflare page properly and ensuring that it was not using the Cloudflare proxy so Github Pages could do all of the authentication/verification stuff it needed to do.
 
-However, I was eventually able to get up in all its unstyled glory.
+However, I was eventually able to get it up in all its unstyled glory.
 
 ![Initial webpage, only text reads "Nevin-Thinagar.github.io][initial-commit]
 <center><em>Website up an running, albeit in a very rudimentary form</em></center><br>
