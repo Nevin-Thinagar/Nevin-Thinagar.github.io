@@ -6,7 +6,7 @@ categories: website
 ---
 Hello! If you're reading this many years in the future, hopefully there are many more blog posts after this one. Otherwise, it seems that this little blog experiment has sadly failed. Regardless, I finally gathered to motivation to just sit down for a couple hours and at least get some kind of structure set up.
 
-So, I went over to MITERS at noon and told myself I wouldn't leave until I had at least a skeleton of a website up and running. It was at this point that I realized I have no idea how to create a website or even how they really work. I looked at a [couple][ben-katz-web] [past][austin-web] [MITERS][franklin-web] [blogs][birkel-web], and they seemed to be quite varied, although I did recognize some common features. Visuals are great and all, but this still didn't give me a clue on how to actually make a website. So I went to the best free source of information I know, the [MITERS][miters-web] Discord server. [Oliver][oliver-web] recommended using [Github Pages][github-pages-web] as it provide free hosting as well as various other [Three Letter Acronyms][tla-web] (TLAs) that I honestly only vaguely understand the utility of (DNS, SSL, TLS, etc etc...). [Jonhenry][jonhenry-web] also confirmed that Github Pages was a good choice to minimize the amount of code I would have to write, so that was good enough for me<sup>1</sup> <sup>2</sup> <sup>3</sup>.
+So, I went over to MITERS at noon and told myself I wouldn't leave until I had at least a skeleton of a website up and running. It was at this point that I realized I have no idea how to create a website or even how they really work. I looked at a [couple][ben-katz-web] [past][austinb-web] [MITERS][franklin-web] [blogs][birkel-web], and they seemed to be quite varied, although I did recognize some common features. Visuals are great and all, but this still didn't give me a clue on how to actually make a website. So I went to the best free source of information I know, the [MITERS][miters-web] Discord server. [Oliver][oliver-web] recommended using [Github Pages][github-pages-web] as it provide free hosting as well as various other [Three Letter Acronyms][tla-web] (TLAs) that I honestly only vaguely understand the utility of (DNS, SSL, TLS, etc etc...). [Jonhenry][jonhenry-web] also confirmed that Github Pages was a good choice to minimize the amount of code I would have to write, so that was good enough for me<sup>1</sup> <sup>2</sup> <sup>3</sup>.
 
 So with the architecture decided, it was time to find a domain and get started. Or at least that's what I should have done. The reality is that I had gotten overexcited and already bought the domain [intentionally-aimless.com][nevin-web]<sup>4</sup> and only asked about hosting when I realized I had no idea what to do next.
 
@@ -42,12 +42,12 @@ This added all the requisite files to my repository and set up the base layouts 
 ![Website in the Minima V2.5.2 theme][jekyll-welcome]
 <center><em>Website ft. the Minima V2.5.2 theme</em></center><br>
 
-I also realize around this time I am not very competent when it comes to writing in Markdown.
+I also realized I am not very competent when it comes to writing in Markdown.
 
 ![Website with dubious markdown formatting][markdown-struggles]
 <center><em>Why are the footnotes ugly and using arrow emojis</em></center><br>
 
-It is at this point in this post where it becomes self-referential. I have gotten the formatting to a place that I am relatively happy with, although there are some things with styling that I want to fix. This is made slightly more complex by the fact that the theme I am currently using, [Minima][minima-web], is preparing for a relatively major update. As such, I don't want to customize too much right now just for it to become outdated in a few months.
+I have now gotten to the point where this post becomes self-referential. The formatting is in a place that I am relatively happy with, although there are some things with styling that I want to fix. This is made slightly more complex by the fact that the theme I am currently using, [Minima][minima-web], is preparing for a relatively major update. As such, I don't want to customize too much right now just for it to become outdated in a few months.
 
 I should also mention that I decided to host my images on [Cloudinary][cloudinary-web] since it automatically compresses them for faster loading and is also free up to 25 GB. I don't know how fast that will fill up but hopefully it lasts for a good while.
 
@@ -55,8 +55,12 @@ In addition to more styling, there are still many features that I want to add to
 - Comments
 - Search
 - Local page preview (Vscode's built-in markdown preview doesn't seem to want to process everything like on the website)
+- Category filters
+- More things I haven't thought of yet
 
-But I think I'll save that for the next post as it is now 4 AM (not continuous work) and I am tired.
+Most of all, I think I need to get better at this whole blog writing thing. I feel like this post has too many words and not enough images. Also it's kind of fun to read, but I think I can do better.
+
+Anyways, I think I'll save that for the next post as it is now 4 AM (not continuous work since noon) and I am tired. Goodnight.
 
 <!--Footnotes-->
 <sup style="color:#666">1</sup> <small style="color:#666">[Anhad][anhad-web] said he uses Squarespace which costs ~$100 a year and [Vaughn][vaughn-web] recommended [Vercel][vercel-web]. I ended up deciding against these, though, as Github Pages was free (Vercel also is) and I already had a Github account.</small>\
