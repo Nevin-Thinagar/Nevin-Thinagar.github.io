@@ -29,7 +29,7 @@ However, I was eventually able to get it up in all its unstyled glory.
 ![Initial webpage, only text reads "Nevin-Thinagar.github.io][initial-commit]
 <center><em>Website up an running, albeit in a very rudimentary form</em></center><br>
 
-Actually, the webpage started out with marginally more styling than this (I, unfortunately, do not have an image of this). However, I then attempted to implement [Jekyll][jekyll-web] in a rather silly way<sup>5</sup> and ended up somehow getting rid of this styling. So, I decided to figure out how Jekyll actually worked and install it properly. It turns out I first had to install [Ruby][ruby-web] then run the following commands:
+Actually, the webpage started out with marginally more styling than this (I, unfortunately, do not have an image of this). However, I then attempted to implement [Jekyll][jekyll-web] in a rather silly way<sup>5</sup> and ended up somehow getting rid of this styling. So, I decided to figure out how Jekyll actually worked and install it properly. To do this, I first had to install [Ruby][ruby-web] then run the following commands:
 
 {% highlight ruby %}
   gem install bundler jekyll
