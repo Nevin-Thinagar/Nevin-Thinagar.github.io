@@ -10,12 +10,8 @@ So, I went over to MITERS at noon and told myself I wouldn't leave until I had a
 
 So with the architecture decided, it was time to find a domain and get started. Or at least that's what I should have done. The reality is that I had gotten overexcited and already bought the domain [intentionally-aimless.com][nevin-web]<sup>4</sup> and only asked about hosting when I realized I had no idea what to do next.
 
-<div align="center">
-
-  ![Cloudflare domain successfully registered email][cloudflare-domain]
-  *Domain purchased from Cloudflare!*
-
-</div>
+![Cloudflare domain successfully registered email][cloudflare-domain]
+*Domain purchased from Cloudflare!*
 
 The story behind the name *intentionally aimless* is somewhat silly. I actually came up with this name at some point in high school while pondering making a [YouTube channel][nevin-yt]. I often find myself drifting from project to project as my interests in different fields ebb and flow, so the name still seems appropriate.
 
@@ -30,12 +26,8 @@ There were various issues in actually getting this implemented including adding 
 
 However, I was eventually able to get up in all its unstyled glory.
 
-<div align="center">
-
-  ![Initial webpage, only text reads "Nevin-Thinagar.github.io][initial-commit]
-  *Website up an running, albeit in a very rudimentary form*
-
-</div>
+![Initial webpage, only text reads "Nevin-Thinagar.github.io][initial-commit]
+*Website up an running, albeit in a very rudimentary form*
 
 Actually, the webpage started out with marginally more styling than this (I, unfortunately, do not have an image of this). However, I then attempted to implement [Jekyll][jekyll-web] in a rather silly way<sup>5</sup> and ended up somehow getting rid of this styling. So, I decided to figure out how Jekyll actually worked and install it properly. It turns out I first had to install [Ruby][ruby-web] then run the following commands:
 
@@ -47,21 +39,13 @@ Actually, the webpage started out with marginally more styling than this (I, unf
 
 This added all the requisite files to my repository and set up the base layouts and styling. At first I thought this change hadn't worked since the website still looked the same. But it turns out this was just my browser caching the website locally instead of loading it from the server. A quick `CTRL + SHIFT + R` seemed to easily resolve this issue.
 
-<div align="center">
-
-  ![Website in the Minima V2.5.2 theme][jekyll-welcome]
-  *Website ft. the Minima V2.5.2 theme*
-
-</div>
+![Website in the Minima V2.5.2 theme][jekyll-welcome]
+*Website ft. the Minima V2.5.2 theme*
 
 I also realize around this time I am not very competent when it comes to writing in Markdown.
 
-<div align="center">
-
-  ![Website with dubious markdown formatting][markdown-struggles]
-  *Why are the footnotes ugly and using arrow emojis*
-
-</div>
+![Website with dubious markdown formatting][markdown-struggles]
+*Why are the footnotes ugly and using arrow emojis*
 
 It is at this point in this post where it becomes self-referential. I have gotten the formatting to a place that I am relatively happy with, although there are some things with styling that I want to fix. This is made slightly more complex by the fact that the theme I am currently using, [Minima][minima-web], is preparing for a relatively major update. As such, I don't want to customize too much right now just for it to become outdated in a few months.
 
