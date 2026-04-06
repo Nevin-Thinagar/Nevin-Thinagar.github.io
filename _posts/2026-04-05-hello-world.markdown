@@ -11,7 +11,7 @@ So, I went over to MITERS at noon and told myself I wouldn't leave until I had a
 So with the architecture decided, it was time to find a domain and get started. Or at least that's what I should have done. The reality is that I had gotten overexcited and already bought the domain [intentionally-aimless.com][nevin-web]<sup>4</sup> and only asked about hosting when I realized I had no idea what to do next.
 
 ![Cloudflare domain successfully registered email][cloudflare-domain]
-*Domain purchased from Cloudflare!*
+<center> *Domain purchased from Cloudflare!* </center>
 
 The story behind the name *intentionally aimless* is somewhat silly. I actually came up with this name at some point in high school while pondering making a [YouTube channel][nevin-yt]. I often find myself drifting from project to project as my interests in different fields ebb and flow, so the name still seems appropriate.
 
