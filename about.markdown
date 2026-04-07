@@ -4,7 +4,7 @@ title: about
 permalink: /about/
 ---
 
-My name is Nevin Thinagar, I'm a second year student studying course [16][course-16] and [6-4][course-6-4] at MIT. I was grew up in Shrewsbury, Massachusetts so I'm not far from [Home][home-song]<sup>1</sup>.
+My name is Nevin Thinagar, I'm a second year student studying course [16][course-16] and [6-4][course-6-4] at MIT. I grew up in Shrewsbury, Massachusetts so I'm not far from [Home][home-song]<sup>1</sup>.
 
 While not pseting, I am most often found at [MITERS][miters-web], [MIT Motorsports][fsae-web], [MAD][mad-web], or [EAsT camPUS][ec-web]<sup>2</sup>. I also occasionally [climb][walker-wall].
 
