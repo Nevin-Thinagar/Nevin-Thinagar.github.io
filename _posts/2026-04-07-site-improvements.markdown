@@ -67,7 +67,7 @@ Buuuut, of course it wouldn't be that simple. Updating the website to add a sear
 gem "minima", github: "jekyll/minima", branch: "master"
 {% endhighlight %}
 
-to the `Gemfile` in my website repo, replacing the line that was previously pointing to the older version of Minima. And Voila, my website look was updated! At some point, once Minima V3 is released, I will stop pointing my website's theme at the master branch (if I remember). But until then, I think this will be stable enough for me. This also caused some minor issues since the formatting of the config file changed, but this was pretty straightforward to resolve.
+to the `Gemfile` in my website repo, replacing the line that was previously pointing to the older version of Minima. And Voila, my website look was updated! At some point, once Minima V3 is released, I will stop pointing my website's theme at the master branch (if I remember). But until then, I think this will be stable enough for me. This also caused some minor issues since the formatting of the config file changed, but this was pretty straightforward to resolve[^5].
 
 ![New website theme and format from Minima V3][minima-v3]
 <center><em>This post now contain itself</em></center><br>
@@ -80,6 +80,7 @@ Now, I was going to do this and then go forward with actually editing the files 
 [^2]: Do I really need to link Windows?
 [^3]: Although, I suppose what I did could fall under "More things I haven't thought of yet"
 [^4]: I did not know this song existed until I was looking for something silly to link here. I did, however, know of The Strokes.
+[^5]: Update: it took and hour to fix one issue and I now need to use `bundle exec jekyll serve --config _config_dev.yml` to run my website locally
 
 <!--Image links and descriptions-->
 [grammar-struggles]: https://res.cloudinary.com/dwyrlx60x/image/upload/q_auto/f_auto/v1775545967/grammar-struggles_kp6blp.png "Just let me say "I" T_T"
