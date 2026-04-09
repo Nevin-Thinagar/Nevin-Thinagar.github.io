@@ -73,7 +73,7 @@ to the `Gemfile` in my website repo, replacing the line that was previously poin
 <center><em>This post now contain itself</em></center><br>
 
 ### To be continued...
-Now, I was going to do this and then go forward with actually editing the files in `_layout` and `_includes` to work and look as I want. However, I want to write another blog post about a little project that I worked on, so those changes will have to wait for another time.
+Now, I was going to do this and then go forward with actually editing the files in `_layout` and `_includes` to work and look like I want them to. However, I want to write another blog post about a little project that I worked on, so those changes will have to wait for another time.
 
 <!--Footnotes links-->
 [^1]: With an extraordinarily suspicious command: `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
