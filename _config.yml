@@ -87,6 +87,9 @@ minima:
     - title: LinkedIn
       icon: linkedin-in
       url: "https://linkedin.com/in/nevinthinagar"
+    - title: Spotify
+      icon: spotify
+      url: "https://open.spotify.com/user/n32gja8oz0wjknb21prs4s2o7"
 
 #   Hide syndication feed subscription link.
 #     RSS / Atom feed link is always rendered as the last item of social-links
