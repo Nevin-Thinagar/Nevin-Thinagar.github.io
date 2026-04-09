@@ -26,7 +26,7 @@ theme: minima
 #   bypassing a Gemfile, use the following setting instead.
 #   It is best that you lock to a particular commit and update if upstream changes
 #   do not affect your site adversely.
-remote_theme: jekyll/minima@master
+remote_theme: jekyll/minima@4de3223
 
 # Minima requires the following plugins:
 plugins:
