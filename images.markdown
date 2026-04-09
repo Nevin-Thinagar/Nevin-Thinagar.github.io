@@ -1,6 +1,6 @@
 ---
 layout: page
 title: images
-permalink: /about/
+permalink: /images/
 ---
 ### Images to be added....
