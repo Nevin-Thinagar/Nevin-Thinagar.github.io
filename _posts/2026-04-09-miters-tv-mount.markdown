@@ -59,6 +59,9 @@ The new TV looks awesome and we watched some [Alessorix][alessorix-web], [ISOxo]
 
 All in all, this was a fun, quick project that we knocked out in ~4 hours and probably could have been faster if not for my welding speed. Hopefully more opportunities to practice coming sometime in the near future!
 
+![The TV playing a video of a concert][tv-running]
+<center><em>Update: I remembered!</em></center><br>
+
 <!--Footnotes links-->
 [^1]: Not to mention the [LOLrioKart's][lolriokart-web] accelerator got stuck at full throttle en route (no injuries).
 [^2]: Which, notably, had an HDMI port that worked about 25% of the time.
@@ -78,6 +81,7 @@ All in all, this was a fun, quick project that we knocked out in ~4 hours and pr
 [anhad-paint]: https://res.cloudinary.com/dwyrlx60x/image/upload/q_auto/f_auto/v1775729210/anhad-paint_fa4xvc.jpg "If this encounters moisture, I think rust will be the least of our concerns"
 [mount-attached]: https://res.cloudinary.com/dwyrlx60x/image/upload/q_auto/f_auto/v1775729474/mount-attached_squu4f.jpg "Pretty much OEM"
 [tv-mounted]: https://res.cloudinary.com/dwyrlx60x/image/upload/q_auto/f_auto/v1775729473/tv-mounted_liflpu.jpg "I swear it looks better in person"
+[tv-running]: https://res.cloudinary.com/dwyrlx60x/image/upload/q_auto/f_auto/v1775898466/tv-running_bf21kl.jpg "I love Ultra!"
 
 <!--Website links-->
 [edgerton-web]: https://edgerton.mit.edu/
