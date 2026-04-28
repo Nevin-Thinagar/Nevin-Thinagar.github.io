@@ -19,7 +19,7 @@ Given these concerns, and Spruce now attempting to find a kiddie pool (???), we 
 So, like any good startup bro seeing an untapped market, I have decided to capitalize on this negative-profit business opportunity.
 
 ### Prefrosh-safe engineering
-The most important thing for this vehicle is to minimize the chance and severity of any injuries that could be sustained while operating this vehicle. To that end, my first Google search was "What is a reasonable speed to fall off a vehicle at?" Other than Google now likely thinking I am some kind of maniac, I discovered that a safe top speed is probably around 15 mph. In addition to this speed cap, there are a few other features/requirements that I want to include for practicality and the driver's safety:
+The most important thing for this vehicle is to minimize the chance and severity of any injuries that could be sustained while operating it. To that end, my first Google search was "What is a reasonable speed to fall off a vehicle at?" Other than Google now likely thinking I am some kind of maniac, I discovered that a safe top speed is probably around 15 mph. In addition to this speed cap, there are a few other features/requirements that I want to include for practicality and the driver's safety:
 
 - Harness
 - Low CG
@@ -50,7 +50,7 @@ In my opinion, a ridable jumbo FRC robot would already be a pretty fun CPW or RE
 
 I then whipped up a pretty basic frame mainly focusing on making sure the roll hoop works to protect the driver in case the vehicle tips. This should be basically impossible considering how wide the base is, but I think this is a good idea because who knows what prefrosh can accomplish. I've also added some spacefills for the future drivetrain and potential mechanism components.
 
-The rest of the frame is kind of thrown together on vibes and probably needs more thought but this post was taking longer than I wanted it to and I want to move on to something else for now. I plan to return to this at some point to design the drivetrain and mechanisms as well as to actually do some calcs and make the frame more tube-efficient.
+The rest of the frame is kind of thrown together on vibes and probably needs more thought, but this post was taking longer than I wanted it to and I want to move on to something else for now as parts have arrived! I plan to return to this at some point to design the drivetrain and mechanisms (which I had planned to do in this post) as well as to actually do some calcs and make the frame more tube-efficient.
 
 <div style="text-align: center;" markdown="1">
   ![The full frame][frame-iso]{: style="width:45%; margin: auto;"}
