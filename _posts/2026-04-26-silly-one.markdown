@@ -1,24 +1,96 @@
 ---
 layout: post
-title:  "A Silly One (1)"
+title:  "A Silly (1)"
 date:   2026-04-26 05:36:00 -0400
 categories: vehicles, shenanigans and nonsense
 ---
 
 <!---Post Content--->
-This [CPW][cpw-web], [Spruce][spruce-web] [^1]
+### It's time for a silly one
+This [CPW][cpw-web], [Spruce][spruce-web][^1] messaged me at [2 AM][2AM-link] on Thursday asking if I had a vehicle that they could use for the prefrosh. Apparently, their EC Driver's Test event had gotten registered without any notice, leaving them in the unfortunate position of having to find a suitably silly vehicle on short notice.
 
-![This is a randomm picture][random-pic]{: width="50%"}
-<center><em>This random picture caption!</em></center><br>
+Now, [MITERS][miters-web] did have a couple of vehicles that I considered offering up for Spruce to use, namely [Ben Katz's old (but refurbished) trike][ben-trike-web] and the recently acquired Drift Trike from [MIT Electric Vehicle Team (EVT)][evt-web][^2]. However, after talking to some other MITERS people, I was told that I was overestimating the prefrosh's driving abilities and that giving one prefrosh the controls to a vehicle was an excellent recipe to produce less than one prefrosh by the end.
+
+![Image of prefrosh plus trike equation][quick-math-pic]
+<center><em>1 drift trike + 1 prefrosh = 1 drift trike (broken) + &lt;1 prefrosh (sad)</em></center><br>
+
+Given these concerns, and Spruce now attempting to find a kiddie pool (???), we decided to pass on using MITERS vehicles. However, this did make me think. Why isn't there a vehicle that is (relatively) safe for prefrosh to drive and silly enough to make it fun? Spruce mentioned that there had once been a sofa on wheels to serve this purpose, but it had since been disassembled.
+
+So, like any good startup bro seeing an untapped market, I have decided to capitalize on this negative-profit business opportunity.
+
+### Prefrosh-safe engineering
+The most important thing for this vehicle is to minimize the chance and severity of any injuries that could be sustained while operating this vehicle. To that end, my first Google search was "What is a reasonable speed to fall off a vehicle at?" Other than Google now likely thinking I am some kind of maniac, I discovered that a safe top speed is probably around 15 mph. In addition to this speed cap, there are a few other features/requirements that I want to include for practicality and the driver's safety:
+
+- Harness
+- Low CG
+- Roll hoop
+- Brake/Throttle (B/T) conflict[^3]
+- Brake Over-Travel Switch (BOTS)
+- Minimal custom parts (ensures long-term repairability)
+- [COTS][cots-web][^4] electronics (RC motors, LiPo packs, etc.)
+- Full of joy and whimsy
+
+A few other goals I have are to improve my welding skills, actually make it waterproof, and reuse as much existing stock and electronics as possible.
+
+Right off the bat, I had a few ideas for how to approach this vehicle. The first was inspired by my experience driving the [MIT Motorsports][fsae-web] trailer. In particular, I found that backing up the trailer to park it was a bit tricky and that the steering while reversing was pretty counter-intuitive. I felt that this could be a good option to make the prefrosh slow down, especially if they had to reverse with a trailer-type attachment. However, I soon came up with a second idea that I am now extremely attached to even though it is significantly more work, requires 2+ vehicles, and probably needs a ton of custom parts.
+
+### Fake Robotics Competition (FRC)
+I'm still workshopping the name, I'm unsure if another notable [FRC][frc-web] might not like this. But hey, we have [FIRSTxMIT][firstxmit-web][^5] now, so maybe they'll be chill! I'm sure the concept is pretty obvious at this point, but just in case it isn't, it's basically FRC but you put prefrosh inside the robots. Now I personally, think this is extraordinarily whimsical and hilarious, made even better by the number of profrosh who will have done FRC or FTC in high school[^6].
+
+![Conceptual sketch of the modified FRC "Robot" Game][robot-game-pic]
+<center><em>Teleop eat your heart out</em></center><br>
+
+Now there are several complications that arise with this idea. However, instead of listing them here or addressing them, I think I'll just figure them out when I actually have to deal with them.
+
+### Robot rodeo
+In my opinion, a ridable jumbo FRC robot would already be a pretty fun CPW or REX event, so I got started with the drivetrain. To size the chassis I used a driver template lifted directly from the [FSAE 2026 rules (F.5.6.6)][fsae-rules] and a seat that I selected by searching "Go Kart Seat" on Amazon on sorting the price from low to high[^7].
+
+![Placeholder seat and driver template CAD model][seat-template]{: style="display: block; margin: 0 auto; width: 50%;"}
+<center><em>"VibeCADing is the future!" - Person who has never seen how temperamental CAD can be without an LLM involved</em></center><br>
+
+I then whipped up a pretty basic frame mainly focusing on making sure the roll hoop works to protect the driver in case the vehicle tips. This should be basically impossible considering how wide the base is, but I think this is a good idea because who knows what prefrosh can accomplish. I've also added some spacefills for the future drivetrain and potential mechanism components.
+
+The rest of the frame is kind of thrown together on vibes and probably needs more thought but this post was taking longer than I wanted it to and I want to move on to something else for now. I plan to return to this at some point to design the drivetrain and mechanisms as well as to actually do some calcs and make the frame more tube-efficient.
+
+<div style="text-align: center;" markdown="1">
+  ![The full frame][frame-iso]{: style="width:45%; margin: auto;"}
+  ![The top of the frame][frame-top]{: style="width:45%; margin: auto;"}
+</div>
+<div style="text-align: center;" markdown="1">
+  ![The side of the frame][frame-side]{: style="width:45%; margin: auto;"}
+  ![The front of the frame][frame-front]{: style="width:45%; margin: auto;"}
+</div>
+<center><em>Kinda ugly, but will get the job done... maybe</em></center><br>
 
 <!--Footnotes links-->
 [^1]: Fun fact: Spruce was OpenAI's first ever intern!
-[^1]: A footnote!
-[^3]: etc...
+[^2]: Sadly, EVT is now defunct, hence how I was able to acquire the drift trike for MITERS. Blog post on this and some fun upgrades I made to it soon!
+[^3]: Yes, I do [FSAE][fsae-web]. How could you tell?
+[^4]: Who knew the US government had a definition for this
+[^5]: Sidenote, someone please tell FirstxMIT that their officer photos should light faces from the front, not the top or the back. Trust me, my face can also easily be turned into a void in bad lighting.
+[^6]: Real talk, the amount of good that FIRST has done for introducing students to "real" engineering in and before high school can't be understated. I didn't realize how many people it impacted until I came to MIT and saw that what felt like half of engineering students had done it at one point or another. Even I did a FIRST program, though it was only [FLL][fll-web] in middle school.
+[^7]: The documentation for the dimensions of this seat in the listing is pretty horrible, but [Kath][kath-web] bought another one of these seats for the drift trike project (spoilers!), so I'll 3D scan it when it comes in. UPDATE: By the time I finished writing this post, the seat arrived. I just have to scan it now!
 
 <!--Image links and descriptions-->
-[random-pic]: https://res.cloudinary.com/dwyrlx60x/image/upload/q_auto/f_auto/v1775425234/samples/cloudinary-icon.png "wow, a picture of something!"
+[quick-math-pic]: https://res.cloudinary.com/dwyrlx60x/image/upload/q_auto/f_auto/v1777198290/quick-math_nhouzt.png "Fractional prefrosh = not good"
+[robot-game-pic]: https://res.cloudinary.com/dwyrlx60x/image/upload/q_auto/f_auto/v1777205231/robot-game_doalyr.png "In-situ operator console"
+[seat-template]: https://res.cloudinary.com/dwyrlx60x/image/upload/q_auto/f_auto/v1777208996/seat-template_rjmtrg.png "Maybe the stick figures were accurate after all"
+[frame-iso]: https://res.cloudinary.com/dwyrlx60x/image/upload/q_auto/f_auto/v1777383879/robot-frame-iso_d8lysr.png "Some more angles might not hurt tbh"
+[frame-top]: https://res.cloudinary.com/dwyrlx60x/image/upload/q_auto/f_auto/v1777383845/robot-frame-top_pu0bl8.png
+[frame-side]: https://res.cloudinary.com/dwyrlx60x/image/upload/q_auto/f_auto/v1777383851/robot-frame-side_ccmazp.png
+[frame-front]: https://res.cloudinary.com/dwyrlx60x/image/upload/q_auto/f_auto/v1777383859/robot-frame-front_ywnod4.png "SURPRISE!"
 
 <!--Website links-->
 [cpw-web]: https://cpwcommunity.mit.edu/
 [spruce-web]: https://spruce.world
+[2AM-link]: https://open.spotify.com/track/00lIRIor6J7ZEW6hSP6dDL?si=2ed8002194024227
+[miters-web]: https://miters.mit.edu/
+[ben-trike-web]: https://robot-daycare.com/posts/2013-03-26-electric-tricycle/
+[evt-web]: https://evt.mit.edu/
+[fsae-web]: https://fsae.mit.edu
+[cots-web]: https://www.acquisition.gov/far/12.103
+[frc-web]: https://www.firstinspires.org/programs/frc/
+[firstxmit-web]: https://firstalumni.mit.edu/
+[fll-web]: https://www.firstinspires.org/programs/fll/
+[fsae-rules]: https://www.fsaeonline.com/cdsweb/gen/DownloadDocument.aspx?DocumentID=278fd4d7-aa27-4e33-bc4a-090148e662a0
+[kath-web]: https://en.wikipedia.org/wiki/Aunt_Gladys
