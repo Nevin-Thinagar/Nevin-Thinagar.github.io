@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "17 x 9 Tetris"
+date:   2026-04-29 05:20:00 -0400
+categories: coding, shenanigans and nonsense
+---
+
+<!---Post Content--->
+Recently, I made Tetris in Python using [pygame][pygame-web]. The catch? The grid is 17 x 9. Why? No reason in particular. However, I will say that I like to call it Tetris54...
+
+Check it out here: [https://github.com/Nevin-Thinagar/17x9-Tetris][repo-web]<br>
+
+<div style="display: flex; flex-direction: column; height: 30vh; justify-content: flex-end;">
+  <em>Completely unrelated, <a href = "https://www.youtube.com/watch?v=tQbu1jpmQWg">this</a> is pretty cool :)</em>
+</div>
+
+<!--Website links-->
+[pygame-web]: https://www.pygame.org
+[repo-web]: https://github.com/Nevin-Thinagar/17x9-Tetris
